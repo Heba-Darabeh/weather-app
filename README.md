@@ -1,3 +1,3 @@
 # Weather App
 
-![app-prev](weather-app.png)
+![app-prev](./icons/weather-app.png)
