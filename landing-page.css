@@ -1,0 +1,117 @@
+.body {
+    margin: 0;
+}
+
+.weather-app-header {
+    height: 123px;
+    margin-top: 50px;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-app-icon {
+    height: 45px;
+}
+
+.weather-title {
+    font-size: 32px;
+    color: #5D768B;
+    margin-left: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.main {
+    padding-top: 35px ;
+    display: grid;
+    justify-content: center;
+}
+
+.weather-search-bar {
+    max-width: 550px;
+    display: flex;
+    flex: 1;
+}
+
+.search-bar {
+    width: 450px;
+    height: 52px;
+    margin-left: 50px;
+    padding-left: 25px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: 20px;
+    flex: 1;
+}
+
+.search-bar:focus {
+    outline: none; /* Removes the default outline */
+}
+
+.search-button {
+    width: 45px;
+    height: 58px;
+    background-color: rgba(11, 23, 50, 0.32);
+    flex-shrink: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    border-left: none;
+    padding: 0;
+}
+
+.search-icon {
+    height: 35px;
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+.city-weather-section {
+    width: 650px;
+    height: 470px;
+    background-color: #D9D9D9;
+    margin-top: 25px;
+    text-align: center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.city-date-div {
+    display: grid;
+    margin-top: 50px;
+}
+
+.city-name {
+    font-family: 'Gupter';
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.date {
+    font-family: 'Gupter';
+    font-size: 24px;
+}
+
+.weather-status-icon {
+    height: 110px;
+    margin-top: 35px;
+}
+
+.weather-description-section {
+    display: grid;
+    margin-top: 40px;  
+}
+
+.degree {
+    font-family: 'Gupter';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.weather-description {
+    font-family: 'Gupter';
+    font-weight: 300;
+    font-size: 28px;
+}

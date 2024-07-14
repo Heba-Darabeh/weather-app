@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Today</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="landing-page.css">
+
+
+</head>
+<body>
+    <div class="weather-app-header">
+            <img class="weather-app-icon" 
+                src="icons/cloudy.png" alt="Weather icon">
+            <div class="weather-title"><b>Sky</b>Weather</div>
+    </div>
+
+    <div class="main">
+        <div class="weather-search-bar">
+            <input class="search-bar" type="text" placeholder="Enter the City Name">
+            <button class="search-button">
+                <img class="search-icon" 
+                    src="icons/search.png" alt="Search icon">
+            </button>
+        </div>
+
+        <div class="city-weather-section">
+            <div class="city-date-div">
+                <span class="city-name"></span>
+                <span class="date"></span>
+            </div>
+
+            <div class="weather-status-section">
+                <img class="weather-status-icon" src="" alt="">
+            </div>
+
+            <div class="weather-description-section">
+                <span class="degree"></span>
+                <span class="weather-description"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
